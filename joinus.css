@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.expand-button {
+    background-color: #87C343;
+    color: #1B506D;
+    padding: 16px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.expand-content {
+    display: none;
+}
+
+.costum-li{
+    color: #1B506D;
+}
+
+.expand-content a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #1B506D;
+}
+a:hover{
+    color: #87C343;
+}
+.job-offer {
+    margin-bottom: 20px;
+}
+.im{
+    width: 1%;
+    height: 1%;
+
+  }
+  .custom-btn{
+    border-color:  #1B506D;
+    color:#1B506D;
+  }
+  .custom-btn:hover {
+    color: #1B506D!important;
+    border-color:  #88c54c !important;
+    background-color:  #88c54c;
+    
+  }
+  .custom-header{
+    background-color:  #87C343;
+    color: #1B506D;
+  }
+  

@@ -1,0 +1,90 @@
+.custom-input:focus {
+    border-color:  #1B506D !important;
+    box-shadow: 0 0 0 0.2rem  #1B506D !important;
+  }
+  
+  
+  .custom-header{
+    background-color:  #87C343;
+    color: #1B506D;
+  }
+  .custom-btn{
+    border-color:  #1B506D;
+  }
+  .custom-input{
+    color: #1B506D;
+  }
+  .custom-input:hover {
+    border-color:  #1B506D!important;
+  }
+  
+  .custom-btn:hover {
+    color: #1B506D!important;
+    border-color:  #87C343 !important;
+    background-color:  #87C343;
+    
+  }
+  .custom-btn{
+    color:#1B506D;
+  }
+  .form-check-input:checked {
+    margin-right: 1.5rem; /* Adjust spacing as desired */
+    background: #1B506D !important; 
+    border-color: #87C343 !important;
+    box-shadow: 0 0 0 0.2rem rgb(135, 195, 67) !important;
+  }
+  .form-check-input:hover {
+    
+    box-shadow: 0 0 0 0.2rem rgb(135, 195, 67) !important;
+  }
+  
+ .costum-select:focus {
+    background-color: #1B506D imor !important; /* Example: blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(27, 80, 109, 1) !important; /* Optional: Bootstrap-style focus outline */
+  }
+  .costum-select:hover {
+    border-color: #1B506D !important; /* Example: blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(27, 80, 109, 1) !important; /* Optional: Bootstrap-style focus outline */
+  }
+  .form-select option:checked {
+    background-color: #1B506D; /* Example: darker gray background when selected */
+  }
+  .form-select option:hover {
+    background-color: #1B506D; /* Example: darker gray background when selected */
+  }
+  .custom-file-label:hover{
+    background-color: #88c54c;
+    color: white;
+   
+  }
+  .custom-file-label{
+    width : 50px;
+    
+  }
+  .custom-file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .input-text{
+    border: #1B506D;
+    border-radius: 10% ;
+  }
+  .file{
+    border-width: 100px;
+    border-color: #1B506D;
+  }
+  .costum-text{
+   
+    background-color: white;
+  }
+  .im{
+    width: 50%;
+    height: 50%;
+
+  }

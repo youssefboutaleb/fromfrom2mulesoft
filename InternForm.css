@@ -1,0 +1,133 @@
+.custom-input:focus {
+    border-color:  #1B506D !important;
+    box-shadow: 0 0 0 0.2rem  #1B506D !important;
+    
+  }
+ .costumcard{
+  background-color: #F5F5F5 !important;
+ }
+  .custom-input{
+    color: #145373;
+  }
+  
+  .custom-header{
+    background-color:  #87C343;
+   
+  }
+  .custom-btn{
+    border-color:  #1B506D;
+    color:#1B506D;
+  }
+  .custom-input:hover {
+    border-color:  #1B506D!important;
+  }
+  
+  .custom-btn:hover {
+    color: #1B506D!important;
+    border-color:  #88c54c !important;
+    background-color:  #88c54c;
+    
+  }
+  .custom-btn{
+    color:#1B506D;
+  }
+  .form-check-input:checked {
+    margin-right: 1.5rem; /* Adjust spacing as desired */
+    background: #145373 !important; 
+    border-color: #88c54c !important;
+    box-shadow: 0 0 0 0.2rem rgb(135, 195, 67) !important;
+  }
+  .form-check-input:hover {
+    
+    box-shadow: 0 0 0 0.2rem rgb(135, 195, 67) !important;
+  }
+  
+ .costum-select:focus {
+    background-color: #1B506D imor !important; /* Example: blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(27, 80, 109, 1) !important; /* Optional: Bootstrap-style focus outline */
+  }
+  .costum-select:hover {
+    border-color: #1B506D !important; /* Example: blue border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(27, 80, 109, 1) !important; /* Optional: Bootstrap-style focus outline */
+  }
+  .form-select option:checked {
+    background-color: #1B506D; /* Example: darker gray background when selected */
+  }
+  .form-select option:hover {
+    background-color: #1B506D; /* Example: darker gray background when selected */
+  }
+  
+  .custom-file-label:hover{
+    background-color: #88c54c;
+    color: white;
+   
+  }
+  .custom-file-label{
+    width : 50px;
+    
+  }
+  .custom-file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .input-text{
+    border: #1B506D;
+    border-radius: 10% ;
+  }
+  .file{
+    border-width: 100px;
+    border-color: #1B506D;
+  }
+  .costum-text{
+   
+    background-color: white;
+  }
+  .im{
+    width: 50%;
+    height: 50%;
+
+  }
+   a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #1B506D;
+}
+a:hover{
+    color: #87C343;
+    color: #1B506D;
+    
+
+}
+.button-container {
+  text-align: right;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.button {
+  display: inline-block;
+  padding: 0.1% 3%;
+  background-color: #145373; /* Button color */
+  color: white;
+  font-size: 2vw;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color:#87C343; /* Button color on hover */
+}
+h2{
+  color: #145373;
+}
+.costum-div{
+  border-left: none;
+  border-right: none;
+}

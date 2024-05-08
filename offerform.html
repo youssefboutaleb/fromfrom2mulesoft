@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Application Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>  
+    <link href="InternForm.css" rel="stylesheet">
+</head>
+    
+</head>
+<body>
+    <!-- Your form content goes here -->
+    
+
+<div class="row">
+    <div>
+        <div class="card col-md-9 costum-div ">
+            <h2> Easily apply </h2>
+            <p>Choose an option to automatically provide your application information. Alternatively, you can manually fill out your profile</p>
+            <div class="button-container">
+                <a href="https://www.linkedin.com/company/olivesoft/jobs/" class="button">Apply via Linkedin</a>
+              </div>
+           
+        </div>
+     
+        <div class="card col-md-9 offset-2 costum-div ">
+          <form id="applicationForm"> 
+            <div class="col-md-9">
+              <div class="form-group">
+                <label>Civility:</label>
+                <div class="d-flex justify-content-center">
+                  <div class="form-check mx-3">
+                    <input class="form-check-input custom-radio" type="radio" name="civility" id="msRadio" value="Ms">
+                    <label class="form-check-label" for="msRadio">Ms</label>
+                  </div>
+                  <div class="form-check mx-3">
+                    <input class="form-check-input custom-radio" type="radio" name="civility" id="mrRadio" value="Mr">
+                    <label class="form-check-label" for="mrRadio">Mr</label>
+                  
+                </div>
+              </div>
+           
+            <br>
+            <!-- ... (Rest of the form fields) ... -->
+            <div class="col-md-9">
+                <div class="form-group">
+            
+                    <input type="text" 
+                    id="FirstName"
+                     name="firstname" 
+                     placeholder="First name"
+                     required 
+                     class="form-control custom-input col-md-6">
+                  </div> 
+                </div>
+                <br> 
+                <div class="col-md-9">
+                  <div class="form-group">
+                    <div calss="input-group">
+                    <input type="text"
+                     id="lastname" name="lastname" 
+                      required
+                      placeholder="Last name"
+                     class="form-control custom-input col-md-6">
+                  </div>
+                </div>
+            </div>
+                  <br> 
+                  <div class="col-md-9">
+                 <div class="form-group">
+               
+                <input type="email"
+                 id="email" 
+                 name="email"
+                  required 
+                  placeholder="Email"
+                  class="form-control custom-input col-md-6">
+                </div>
+               </div>
+            </div>
+               <br>
+               <div class="col-md-9">
+                <div class="form-group">
+                  <label>work preferences:</label>
+                  
+                  <div >
+                    <br>
+                    <div class="form-check mx-3">
+                      <input class="form-check-input custom-radio" type="radio" name="work" id="remoteRadio" value="Remote">
+                      <label class="form-check-label" for="remoteRadio">Remote</label>
+                    </div>
+                    
+                    <div class="form-check mx-3">
+                      <input class="form-check-input custom-radio" type="radio" name="work" id="onsiteRadio" value="Onsite">
+                      <label class="form-check-label" for="onsiteRadio">On-site</label>
+                    </div>
+                    
+                      <div class="form-check mx-3">
+                        <input class="form-check-input custom-radio" type="radio" name="work" id="hybridRadio" value="Hybriid">
+                        <label class="form-check-label" for="hybridRadio">Hybrid</label>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="col-md-9">
+              <div class="form-group">
+               <label for="country">Pays :</label>
+               <select id="country" name="country" class="form-select col-md-6 costum-select" >
+                <option value="tunisia" class="choice"></option>
+                 <option value="tunisia" class="choice">Tunisia</option>
+                 <option value="france" class="choice">France</option>
+               </select>
+             </div>
+             <br>
+             <div class="col-md-9">
+             <div class="form-group">
+               <label for="phone">Phone Number:</label>
+               <div class="input-group">
+                 <span class="input-group-text custom-input" id="countryCode">+</span>
+                 <input type="tel" 
+                 required
+                 class="form-control custom-input col-md-9" 
+                 id="phone" 
+                 name="phone" >
+               </div>
+             </div>
+           </div>
+               </div>
+            </div>
+        </div>
+
+
+
+
+               <div class="card col-md-9 offset-2 costum-div">
+                <br>
+           <div class="col-md-9">
+            <div class="form-group">
+              
+              <input type="text"
+               id="univercity" 
+               name="univercity" 
+               placeholder="University"
+                required 
+                class="form-control custom-input col-md-6 ">
+            </div> 
+           </div>
+              
+              <br>
+              
+           </div>
+
+
+           <div class="card col-md-9 offset-2 costum-div">
+            <div class="card col-md-9  ">
+               <button class="expand-button col-md-12  justify-content-center" onclick="toggleExpand()"> Experience </button>
+                <div class="expand-content" id="expandContent">
+                    <br>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                          
+                          <input type="text"
+                           id="title" 
+                           name="title" 
+                           placeholder="Title"
+                            required 
+                            class="form-control custom-input col-md-6 ">
+                        </div> 
+                       </div>
+                       <br>
+                       <div class="col-md-9">
+                        <div class="form-group">
+                          
+                          <input type="text"
+                           id="company" 
+                           name="company" 
+                           placeholder="Company"
+                            required 
+                            class="form-control custom-input col-md-6 ">
+                        </div> 
+                       </div>
+                       <br>
+                       <div class="col-md-9">
+                        <div class="form-group">
+                          
+                          <input type="text"
+                           id="location" 
+                           name="location" 
+                           placeholder="Location"
+                            required 
+                            class="form-control custom-input col-md-6 ">
+                        </div> 
+                       </div>
+                        </div>
+                      </div>
+                      <br>
+        
+          
+          
+       </div>
+
+       <div class="card col-md-9 offset-2 costum-div">
+        <div class="card col-md-9  ">
+           <button class="expand-button col-md-12  justify-content-center" onclick="toggleExpand()"> Educations </button>
+            <div class="expand-content" id="expandContent">
+                <br>
+                <div class="col-md-9">
+                    <div class="form-group">
+                      
+                      <input type="text"
+                       id="univercity" 
+                       name="univercity" 
+                       placeholder="University"
+                        required 
+                        class="form-control custom-input col-md-6 ">
+                    </div> 
+                   </div>
+                   <div class="col-md-9">
+                    <div class="form-group">
+                      <label>University Type:</label>
+                      <div class="d-flex justify-content-center">
+                        <div class="form-check mx-3">
+                          <input class="form-check-input custom-radio" type="radio" name="univercitytype" id="privateRadio" value="Private">
+                          <label class="form-check-label" for="privateRadio">Private</label>
+                        </div>
+                        <div class="form-check mx-3">
+                          <input class="form-check-input custom-radio" type="radio" name="univercitytype" id="publicRadio" value="Public">
+                          <label class="form-check-label" for="publicRadio">Public</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+    
+      
+      
+   </div>
+           
+            <br> 
+            <div class="card col-md-9 offset-2 costum-div">
+            <div class="col-md-9">
+            <div class="form-group">
+             
+                <div class="custom-file-upload d-flex justify">
+                    <label for="avatar" class="custom-file-label"> <img src="clip_11079740.png" alt="Icon description" class="im"></label>
+                    <input type="file" 
+                    id="avatar" name="avatar"
+                     accept="application/pdf, application/msword"
+                      class="form-control custom-input" />
+                      <span 
+                      class="input-group-text form-control costum-text"
+                      id="filemessage"
+                       > No file uploaded</span>
+                
+        </div>
+    </div>
+    </div>
+</div>
+    <br>
+            <button type="submit" class="btn custom-btn">
+              <b>Submit</b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  <script src="InternForm.js"></script>
+</body>
+</html>
